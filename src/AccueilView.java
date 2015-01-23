@@ -37,7 +37,7 @@ public class AccueilView extends JPanel
    {
 	   super();
 	   this.setLayout(new BorderLayout());
-	   this.icone = new ImageIcon("/home/yanislb/Bureau/NarutoRPG/images/fond_menu.jpg");
+	   this.icone = new ImageIcon("/images/fond_menu.jpg");
 	   this.label = new JLabel(icone);
 	   initPanel();
    }

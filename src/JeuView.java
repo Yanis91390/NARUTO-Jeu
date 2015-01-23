@@ -82,21 +82,21 @@ public class JeuView extends JPanel implements KeyListener {
 			try
 			{
 				// CHARGEMENT DES IMAGES
-				this.naruto_gauche_arret = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoGauche1.png"));
-				this.naruto_gauche_marche1 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoGauche2.png"));
-				this.naruto_gauche_marche2 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoGauche3.png"));
-				this.naruto_droite_arret = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoDroite1.png"));
-				this.naruto_droite_marche1 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoDroite2.png"));
-				this.naruto_droite_marche2 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoDroite3.png"));
-				this.naruto_avant_arret = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoAvant1.png"));
-				this.naruto_avant_marche1 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoAvant2.png"));
-				this.naruto_avant_marche2 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoAvant3.png"));
-				this.naruto_arriere_arret = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoArriere1.png"));
-				this.naruto_arriere_marche1 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoArriere2.png"));
-				this.naruto_arriere_marche2 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoArriere3.png"));
-				this.naruto_pause = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/narutoPause.png"));
-				this.map1_1 = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/cartes/map1-1.png"));
-				this.sasuke = ImageIO.read(new File("/home/yanislb/Bureau/NarutoRPG/images/perso/SASUKE.png"));
+				this.naruto_gauche_arret = ImageIO.read(new File("/images/perso/narutoGauche1.png"));
+				this.naruto_gauche_marche1 = ImageIO.read(new File("/images/perso/narutoGauche2.png"));
+				this.naruto_gauche_marche2 = ImageIO.read(new File("/images/perso/narutoGauche3.png"));
+				this.naruto_droite_arret = ImageIO.read(new File("/images/perso/narutoDroite1.png"));
+				this.naruto_droite_marche1 = ImageIO.read(new File("/images/perso/narutoDroite2.png"));
+				this.naruto_droite_marche2 = ImageIO.read(new File("/images/perso/narutoDroite3.png"));
+				this.naruto_avant_arret = ImageIO.read(new File("/images/perso/narutoAvant1.png"));
+				this.naruto_avant_marche1 = ImageIO.read(new File("/images/perso/narutoAvant2.png"));
+				this.naruto_avant_marche2 = ImageIO.read(new File("/images/perso/narutoAvant3.png"));
+				this.naruto_arriere_arret = ImageIO.read(new File("/images/perso/narutoArriere1.png"));
+				this.naruto_arriere_marche1 = ImageIO.read(new File("/images/perso/narutoArriere2.png"));
+				this.naruto_arriere_marche2 = ImageIO.read(new File("/images/perso/narutoArriere3.png"));
+				this.naruto_pause = ImageIO.read(new File("/images/perso/narutoPause.png"));
+				this.map1_1 = ImageIO.read(new File("/images/cartes/map1-1.png"));
+				this.sasuke = ImageIO.read(new File("/images/perso/SASUKE.png"));
 				
 			}
 			catch (IOException e)
